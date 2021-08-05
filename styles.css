@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #c44569;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.26);
+    padding: 1rem;
+}
+
+.numbers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.numbers input {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    outline: none;
+}
+
+.numbers input:focus {
+    border: 1px solid green;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+.numbers .hyphen {
+    margin: 1rem;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.submit:focus {
+    background-color: green;
+    color: white;
+}
